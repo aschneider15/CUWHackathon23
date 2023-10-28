@@ -16,7 +16,7 @@ app.get("/index.html", function (req, res) {
     res.sendFile("C:/Users/aschn/source/repos/CUWHackathon23/CUWHackathon23/frontend/index.html")
 })
 app.get("/chatting.html", function (req, res) {
-    res.sendFile("C:/Users/aschn/source/repos/CUWHackathon23/CUWHackathon23/frontend/test.html")
+    res.sendFile("C:/Users/aschn/source/repos/CUWHackathon23/CUWHackathon23/frontend/chatting.html")
 })
 app.get("/faq.html", function (req, res) {
     res.sendFile("C:/Users/aschn/source/repos/CUWHackathon23/CUWHackathon23/frontend/faq.html")
