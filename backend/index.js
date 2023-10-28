@@ -2,9 +2,12 @@
 // "tools" is the object through which we can interact with
 // nostr-tools' functions.
 const tools = require('nostr-tools')
+const eventCreator = require('./eventCreator')
 
-let sk = tools.generatePrivateKey() // `sk` is a hex string
-let pk = tools.getPublicKey(sk) // `pk` is a hex string
+privKey = 0x3de315e757169d493073245ebb92d7053b3b608cb43f4ddcf43e8a40029ffbb1
 
-console.log(sk)
-console.log(pk)
+
+help = eventCreator.createEvent(privKey, 1, "hello.")
+
+console.log('event ID: ', help.id)
+console.log('event signature: ', help.sig)
