@@ -1,5 +1,8 @@
-const ndk = require('ndk');
+const NDK = require('ndk');
 
-ndk = new NDK({
+ndkInstance = new NDK({
     explicitRelayUrls: ["wss://relay.nostrss.re", "wss://nostr.lnproxy.org"],
 });
+
+console.log('Hello ');
+
