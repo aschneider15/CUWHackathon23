@@ -1,1 +1,12 @@
-Timothy was here!
+{
+  "content": "Hmm. Just testing things out!",
+  "created_at": 1698506472,
+  "id": "88c5673c4661c9fc46c06cb6488ac1c33314b8df70982c57ec84cd2719967837",
+  "kind": 1,
+  "pubkey": "b04d6b0b27517a080f8e5ce9af144a63801dcd097334768a7a68b027fd0bb18a",
+  "sig": "55ceb995db1edb126b03091e8aecc6bf7c3487a14ee486fcbfdada46c9c1466d622ec2f553b8806551cef7933f71261ab7296c4250b9eee8642d2021ac87f974",
+  "tags": [],
+  "relays": [
+    "wss://nos.lol/"
+  ]
+}
