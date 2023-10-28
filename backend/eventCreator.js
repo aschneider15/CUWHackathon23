@@ -10,7 +10,7 @@ exports.createEvent = function(priv_key, kind, mssg) {
       }
     
     event.id = tools.getEventHash(event)
-    event.sig = tools.getSignature(event, pk)
+    event.sig = tools.getSignature(event, priv_key)
 
     let ok = tools.validateEvent(event)
     let veryOk = tools.verifySignature(event)
