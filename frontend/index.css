@@ -1,0 +1,157 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-navlink {
+  top: 553px;
+  left: 760px;
+  position: absolute;
+  border-color: #2d2d2d;
+  border-width: 1px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.home-navlink1 {
+  top: 39px;
+  right: 97px;
+  z-index: 200;
+  position: absolute;
+  align-self: center;
+  text-decoration: none;
+}
+.home-textinput {
+  top: 34px;
+  left: 490px;
+  width: 381px;
+  height: 34px;
+  position: absolute;
+  align-self: center;
+}
+.home-image {
+  top: 225px;
+  right: 0px;
+  width: 380px;
+  height: 248px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.home-text2 {
+  top: 199px;
+  left: 126px;
+  position: absolute;
+  align-self: center;
+}
+.home-text3 {
+  top: 198px;
+  left: 516px;
+  margin: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+}
+.home-text4 {
+  top: -44px;
+  left: 505px;
+  position: absolute;
+  align-self: center;
+}
+.home-image1 {
+  top: 220px;
+  left: 0px;
+  width: 380px;
+  height: 248px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.home-image2 {
+  top: 224px;
+  left: 0px;
+  right: 0px;
+  width: 380px;
+  height: 248px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.home-navlink2 {
+  top: 40px;
+  right: 210px;
+  z-index: 200;
+  position: absolute;
+  align-self: center;
+  text-decoration: none;
+}
+.home-button {
+  top: 494px;
+  left: 141px;
+  position: absolute;
+  align-self: center;
+}
+.home-button1 {
+  top: 486px;
+  left: 559px;
+  position: absolute;
+  align-self: center;
+}
+.home-text5 {
+  top: 113px;
+  left: 0px;
+  color: rgb(237, 237, 237);
+  width: 100%;
+  height: auto;
+  z-index: 300;
+  position: absolute;
+  font-size: 30px;
+  align-self: stretch;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  text-align: center;
+  font-family: "Gotham Medium";
+  padding-top: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  background-color: rgb(0, 85, 150);
+}
+.home-pasted-image {
+  top: 0px;
+  left: 0px;
+  width: 450px;
+  height: 120px;
+  position: absolute;
+  align-self: flex-start;
+}
+.home-navlink3 {
+  top: 551px;
+  left: 329px;
+  padding: 10px;
+  position: absolute;
+  font-family: "Gotham Narrow Book";
+  padding-top: 1px;
+  border-color: #2d2d2d;
+  border-width: 1px;
+  padding-left: 1px;
+  border-radius: 8px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  text-decoration: none;
+}
+.home-button2 {
+  top: 490px;
+  right: 150px;
+  position: absolute;
+  align-self: center;
+}
+.home-text8 {
+  top: 195px;
+  right: 85px;
+  position: absolute;
+}
