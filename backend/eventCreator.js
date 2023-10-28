@@ -1,6 +1,6 @@
 const tools = require('nostr-tools')
 
-function createEvent(priv_key, kind, mssg) {
+exports.createEvent = function(priv_key, kind, mssg) {
     let event = {
         kind: kind,
         created_at: Math.floor(Date.now() / 1000),
@@ -18,8 +18,4 @@ function createEvent(priv_key, kind, mssg) {
     if(ok && veryOk) {
         return event
     }
-}
-
-export {
-    createEvent
 }
